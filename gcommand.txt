@@ -11,8 +11,8 @@ git init
 git add .
 git commit -m "adding initial file"
 git remote add url_nickname your_url
-git remote add abc https://github.com/nur-163/my_test.git
-git push -u abc master 
+git remote add xyz https://github.com/nur-163/lab_finalSWE.git
+git push -u  master 
 
 
 task 02(after run)

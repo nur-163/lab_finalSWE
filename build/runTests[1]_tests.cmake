@@ -1,0 +1,7 @@
+add_test([=[ShapeFactoryTest.CreateCircle]=]  /Users/nure/Documents/Lab_final_SWE/build/runTests [==[--gtest_filter=ShapeFactoryTest.CreateCircle]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ShapeFactoryTest.CreateCircle]=]  PROPERTIES WORKING_DIRECTORY /Users/nure/Documents/Lab_final_SWE/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ShapeFactoryTest.CreateSquare]=]  /Users/nure/Documents/Lab_final_SWE/build/runTests [==[--gtest_filter=ShapeFactoryTest.CreateSquare]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ShapeFactoryTest.CreateSquare]=]  PROPERTIES WORKING_DIRECTORY /Users/nure/Documents/Lab_final_SWE/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ShapeFactoryTest.InvalidShapeReturnsNull]=]  /Users/nure/Documents/Lab_final_SWE/build/runTests [==[--gtest_filter=ShapeFactoryTest.InvalidShapeReturnsNull]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ShapeFactoryTest.InvalidShapeReturnsNull]=]  PROPERTIES WORKING_DIRECTORY /Users/nure/Documents/Lab_final_SWE/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  runTests_TESTS ShapeFactoryTest.CreateCircle ShapeFactoryTest.CreateSquare ShapeFactoryTest.InvalidShapeReturnsNull)

@@ -1,0 +1,22 @@
+git --version
+git init
+git config --list
+git config --global user.name "Nur-163"
+git config --global user.email "zannatnurezannat@gmail.com"
+
+
+
+main task: task 01
+git init
+git add .
+git commit -m "adding initial file"
+git remote add url_nickname your_url
+git remote add abc https://github.com/nur-163/my_test.git
+git push -u abc master 
+
+
+task 02(after run)
+git status
+git add .
+git commit -m "adding final files"
+git push
